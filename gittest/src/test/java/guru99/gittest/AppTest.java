@@ -11,7 +11,12 @@ public class AppTest {
   public void guru99tutorials() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 		        "chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+	  
+	  ChromeOptions o = new ChromeOptions();
+o.addArguments("disable-extensions");
+o.addArguments("--start-maximized");
+WebDriver driver = new ChromeDriver(o);
+//		WebDriver driver = new ChromeDriver();
         String eTitle = "Meet Guru99";
         String aTitle = "";
         // launch Firefox and redirect it to the Base URL
