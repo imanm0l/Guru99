@@ -10,13 +10,9 @@ public class AppTest {
 	protected WebDriver driver;
 	@Test
   public void guru99tutorials() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-		        "chromedriver.exe");
-	  
-	  ChromeOptions o = new ChromeOptions();
-o.addArguments("disable-extensions");
-o.addArguments("--start-maximized");
-WebDriver driver = new ChromeDriver(o);
+	System.setProperty("webdriver.gecko.driver","geckodriver.exe"); 
+	    driver = new FirefoxDriver();
+	    
 //		WebDriver driver = new ChromeDriver();
         String eTitle = "Meet Guru99";
         String aTitle = "";
