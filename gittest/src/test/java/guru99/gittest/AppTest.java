@@ -19,6 +19,7 @@ public class AppTest {
         String aTitle = "";
         // launch Firefox and redirect it to the Base URL
         driver.get("http://www.guru99.com/");
+	  Thread.sleep(5000);
         //maximises the browser window
         driver.manage().window().maximize();
         // get the actual value of the title
@@ -29,6 +30,7 @@ public class AppTest {
         } else {
             System.out.println("Test Failed");
         }        
+	   driver.get("http://www.google.com/");
         //close Firefox browser
         driver.close();
 		
