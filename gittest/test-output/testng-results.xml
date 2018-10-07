@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31405" started-at="2018-10-07T13:52:09Z" finished-at="2018-10-07T13:52:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31405" started-at="2018-10-07T13:52:09Z" finished-at="2018-10-07T13:52:40Z">
+      <class name="guru99.gittest.AppTest">
+        <test-method status="PASS" signature="guru99tutorials()[pri:0, instance:guru99.gittest.AppTest@4cc0edeb]" name="guru99tutorials" duration-ms="31380" started-at="2018-10-07T19:22:09Z" finished-at="2018-10-07T19:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guru99tutorials -->
+      </class> <!-- guru99.gittest.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
