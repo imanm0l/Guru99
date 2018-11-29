@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31405" started-at="2018-10-07T13:52:09Z" finished-at="2018-10-07T13:52:40Z">
+  <suite name="BLR_Analytics" duration-ms="43713" started-at="2018-11-29T20:54:11Z" finished-at="2018-11-29T20:54:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31405" started-at="2018-10-07T13:52:09Z" finished-at="2018-10-07T13:52:40Z">
+    <test name="Login" duration-ms="43713" started-at="2018-11-29T20:54:11Z" finished-at="2018-11-29T20:54:55Z">
       <class name="guru99.gittest.AppTest">
-        <test-method status="PASS" signature="guru99tutorials()[pri:0, instance:guru99.gittest.AppTest@4cc0edeb]" name="guru99tutorials" duration-ms="31380" started-at="2018-10-07T19:22:09Z" finished-at="2018-10-07T19:22:40Z">
+        <test-method status="PASS" signature="guru99tutorials()[pri:0, instance:guru99.gittest.AppTest@482f8f11]" name="guru99tutorials" duration-ms="43692" started-at="2018-11-30T02:24:11Z" finished-at="2018-11-30T02:24:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guru99tutorials -->
       </class> <!-- guru99.gittest.AppTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login -->
+  </suite> <!-- BLR_Analytics -->
 </testng-results>

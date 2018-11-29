@@ -22,7 +22,7 @@ public class AppTest {
         String aTitle = "";
         // launch Firefox and redirect it to the Base URL
         driver.get("http://www.guru99.com/");
-        //maximises the browser window
+        //maximise s the browser window
         driver.manage().window().maximize();
         // get the actual value of the title
         aTitle = driver.getTitle();
